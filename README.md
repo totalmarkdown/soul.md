@@ -57,7 +57,7 @@ Foundational to WHOAMI.md (identity documents), VOICE.md (communication style), 
 
 ## Part of agent-md-specs
 
-One of 153 specs in [agent-md-specs](https://github.com/totalmarkdown/agent-md-specs)
+One of 165 specs in [agent-md-specs](https://github.com/totalmarkdown/agent-md-specs)
 — the open standard library covering every dimension of AI agent configuration.
 
 ---
