@@ -15,6 +15,14 @@
 
 ---
 
+
+> **Canonical Source:** This spec is maintained in the main
+> [agent-md-specs](https://github.com/totalmarkdown/agent-md-specs) repository.
+> This repo is an auto-synced mirror for easy discovery and download.
+> To report issues or submit changes, please open a PR or issue on the
+> [main repository](https://github.com/totalmarkdown/agent-md-specs).
+
+
 ## What is SOUL.md?
 
 SOUL.md captures who an agent is — not what it does, but how it does it. It defines personality traits, core values, communication tone, and the behavioral principles that make one agent feel different from another.
