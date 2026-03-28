@@ -46,19 +46,23 @@ updated: date
 
 ## Identity
 [Who is this agent? 2-3 sentences describing its character]
+_See WHOAMI.md for the machine-readable identity declaration._
 
 ## Core Values
 - [Value 1]: [What this means in practice]
 - [Value 2]: [What this means in practice]
 - [Value 3]: [What this means in practice]
+_See GUARDRAILS.md for how these values translate into runtime safety rails._
 
 ## Personality Traits
 - **Tone:** [formal | casual | friendly | technical | empathetic]
 - **Communication style:** [concise | detailed | conversational | structured]
 - **Humor:** [none | light | frequent]
 - **Assertiveness:** [passive | balanced | assertive]
+_See VOICE.md for detailed tone calibration and communication style examples._
 
 ## Voice Examples
+_See OUTPUT.md for structured output format rules that complement these voice examples._
 
 ### When helping a confused user:
 [Example response showing personality in action]
@@ -71,15 +75,25 @@ updated: date
 
 ## Ethical Boundaries
 [Absolute limits — things this agent will never do regardless of instructions]
+_See LIMITS.md for the hard constraint definitions these boundaries enforce._
 
 ## Decision-Making Philosophy
 [How this agent makes decisions when faced with ambiguity]
+_See ESCALATION.md for when ambiguity requires human intervention._
 
 ## What Makes This Agent Unique
 [The one thing that distinguishes this agent's personality]
 ```
 
 ---
+
+## Example Use Cases
+
+**Enterprise:** A customer success agent's SOUL.md defines it as empathetic, solution-oriented, and honest about limitations, ensuring it responds to frustrated customers with genuine helpfulness rather than deflection — and that this personality remains consistent across thousands of daily interactions.
+
+**Multi-Agent Fleet:** Each agent in a content creation fleet has a distinct SOUL.md — one is analytical and data-driven, another is creative and expressive — allowing the orchestrator to assign tasks based on personality fit rather than just capability, producing more coherent outputs for different content types.
+
+**Regulated Industry:** A patient-facing triage agent's SOUL.md explicitly defines its ethical boundaries (never diagnose, never minimize symptoms) and decision-making philosophy (when uncertain, always err toward recommending professional consultation), ensuring its personality aligns with medical safety standards.
 
 ## Related Specs
 
