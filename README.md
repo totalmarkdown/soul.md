@@ -1,6 +1,6 @@
 # SOUL.md
 
-> *Defines an AI agent's personality, values, communication style, and behavioral boundaries*
+> *Defines the personality, values, and character of an AI agent*
 
 [![License: CC0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 [![Part of agent-md-specs](https://img.shields.io/badge/part%20of-agent--md--specs-blue)](https://github.com/totalmarkdown/agent-md-specs)
@@ -15,21 +15,19 @@
 
 ---
 
-
 > **Canonical Source:** This spec is maintained in the main
 > [agent-md-specs](https://github.com/totalmarkdown/agent-md-specs) repository.
 > This repo is an auto-synced mirror for easy discovery and download.
 > To report issues or submit changes, please open a PR or issue on the
 > [main repository](https://github.com/totalmarkdown/agent-md-specs).
 
-
 ## What is SOUL.md?
 
-SOUL.md captures who an agent is — not what it does, but how it does it. It defines personality traits, core values, communication tone, and the behavioral principles that make one agent feel different from another.
+SOUL.md is the personality file for AI agents. It defines who the agent IS — not what it does, but its character, values, communication style, and ethical boundaries. Think of it as the agent's personality DNA.
 
-In a world where every AI agent uses the same underlying models, SOUL.md is what creates differentiation. It's the difference between a terse, technical agent and a warm, patient one. Between an agent that takes risks and one that asks permission first.
+Without SOUL.md, agents are interchangeable black boxes. With it, each agent has a distinct, coherent identity that shapes every interaction — from the words it chooses to the decisions it escalates.
 
-Create a SOUL.md when you want your agent to have a consistent personality across sessions, interactions, and contexts. It's the foundation that other specs build on.
+Create a SOUL.md for any agent that interacts with humans, makes value-laden decisions, or needs a consistent personality across sessions.
 
 ---
 
@@ -45,15 +43,15 @@ Add to your project root and customize for your agent.
 
 ## When to use SOUL.md
 
-- Giving a customer support agent a warm, empathetic personality that persists across conversations
-- Defining a code review agent that is direct and opinionated but never condescending
-- Establishing values and ethical boundaries for an autonomous agent making decisions without human oversight
+- Building a customer-facing agent that needs consistent personality
+- Defining ethical boundaries and decision-making philosophy
+- Ensuring multiple agents have distinct, coherent personalities
 
 ---
 
 ## Where it fits
 
-Foundational to WHOAMI.md (identity documents), VOICE.md (communication style), and PERSONA.md (public-facing personality). Works with LIMITS.md to define behavioral boundaries. Referenced by AGENTS.md and CLAUDE.md.
+Works alongside VOICE.md (communication style), GUARDRAILS.md (safety boundaries from values), WHOAMI.md (public-facing identity), and LIMITS.md (hard constraints derived from values).
 
 ---
 
